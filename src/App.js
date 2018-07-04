@@ -68,11 +68,13 @@ class App extends Component {
     let current = this.state.tabs[index];
     this.setState({current:current})
   }
+
   handleTest(){
     this.setState({
       visible:!this.state.visible
     })
   }
+  
   doCancelModel(e){
     this.setState({
       visible:!this.state.visible
