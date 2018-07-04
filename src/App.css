@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: 
+  hidden;
+}
+.App{
+  display: flex;
+  flex: 1;
+  flex-direction:column;
+}
+.title{
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.handle-btn{
+  float: right;
+  margin-top:20px;
+}
+.section{
+  display: flex;
+  flex: 1;
+  flex-direction:column;
+} 
+.tabs-content{
+  display: flex;
+  flex: 1;
+  flex-direction:column;
+}
+.ant-tabs-bar{
+  margin:0;
+}
+.ant-tabs-content{
+  flex: 1;
+}
+
+.model-content{
+  height: auto;
+  overflow: hidden;
+}
+.model-item{
+  height: auto;
+  overflow: hidden;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  margin-bottom:5px;
+}
